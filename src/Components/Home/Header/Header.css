@@ -1,0 +1,27 @@
+.header{
+    background-image: url("../../../Image/PNG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-text{
+    margin-left:16%;
+    
+}
+.header-descriptions{
+    line-height: 3.5ch;
+    font-size: 18px;
+}
+
+button.btn.btn-outline-dark {
+    margin-left: 60px;
+}
+.name{
+    font-size: 34px;
+    color: brown;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    margin-right: 22px;
+    cursor: pointer;
+}

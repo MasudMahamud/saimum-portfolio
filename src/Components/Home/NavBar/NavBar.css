@@ -1,0 +1,24 @@
+
+.logo2{
+    color: aliceblue;
+    font-weight: 600;
+}
+.logo1{
+    color: tomato;
+    font-weight: 600;
+}
+
+.my-nav a{
+    color:rgb(231, 230, 230);
+    margin-right: 97px;
+}
+
+.my-nav a:hover{
+    color:orange
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #fff;
+    color: black;
+    border-color: rgb(71, 247, 18);
+}
