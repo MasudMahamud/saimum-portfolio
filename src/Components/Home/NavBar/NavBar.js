@@ -9,7 +9,7 @@ const NavBar = () => {
   const closeMenu = () => setClick(click);
 
   return (
-    <div>
+    <>
       <Navbar bg="dark" expand="lg">
         <Container>
           <Navbar.Brand to="/">
@@ -22,7 +22,7 @@ const NavBar = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav  className=" my-nav ml-auto">
+            <Nav  className=" my-nav ml-auto d-flex justify-content-around">
               <Link
                 className="active ms-3"
                 to="home"
@@ -80,16 +80,10 @@ const NavBar = () => {
                 Contact
               </Link>
             </Nav>
-            <div className="justify-content-end">
-            
-              <Link href="#login" className="justify-content-end">Log In</Link>
-           
-          </div>
-       
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    </>
   );
 };
 

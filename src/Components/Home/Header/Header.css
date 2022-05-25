@@ -4,10 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.header-text{
-    margin-left:16%;
-    
-}
+
 .header-descriptions{
     line-height: 3.5ch;
     font-size: 18px;
@@ -16,16 +13,13 @@
 button.btn.btn-outline-dark {
     margin-left: 60px;
 }
-.name{
-    font-size: 34px;
-    color: brown;
-}
 
-MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
-    margin-right: 28px !important;
-    cursor: pointer;
+
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.icon svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
-    margin-right: 28px !important;
+.header-icons{
     cursor: pointer;
 }
