@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container">
         <div className="row py-5">
           <div className="col-md-6">
-            <img className="img-fluid text-center" src={img} alt="" />
+            <img className="img-fluid text-center" src={img} alt="" style={{width:'70%'}}/>
           </div>
           <div className="col-md-6" style={{ margin: "auto" }}>
             <div className="header-text ">

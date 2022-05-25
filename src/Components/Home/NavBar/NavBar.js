@@ -22,9 +22,9 @@ const NavBar = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto my-nav">
+            <Nav  className=" my-nav ml-auto">
               <Link
-                className="active me-3"
+                className="active ms-3"
                 to="home"
                 spy={true}
                 smooth={true}
@@ -35,13 +35,14 @@ const NavBar = () => {
                 Home
               </Link>
               <Link
-                className="active me-3"
+                className="active ms-3"
                 to="about"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}
                 onClick={closeMenu}
+                
               >
                 About
               </Link>
@@ -79,6 +80,12 @@ const NavBar = () => {
                 Contact
               </Link>
             </Nav>
+            <div className="justify-content-end">
+            
+              <Link href="#login" className="justify-content-end">Log In</Link>
+           
+          </div>
+       
           </Navbar.Collapse>
         </Container>
       </Navbar>
