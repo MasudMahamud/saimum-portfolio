@@ -21,7 +21,11 @@ button.btn.btn-outline-dark {
     color: brown;
 }
 
-svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
-    margin-right: 22px;
+MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    margin-right: 28px !important;
+    cursor: pointer;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
+    margin-right: 28px !important;
     cursor: pointer;
 }
