@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar bg="dark" expand="lg">
+      <Navbar bg="dark" expand="lg" className="fixed-top">
         <Container>
           <Navbar.Brand to="/">
             {" "}
