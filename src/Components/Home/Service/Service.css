@@ -9,7 +9,28 @@
 .about-title-container p{
    padding-top: 22px;
 }
-
 p.card-text{
     color: #62646a;
+}
+
+.progress-bar{
+ background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+ width: 100%;
+ display: -webkit-inline-box;
+    margin: auto;
+}
+
+.single-countUp {
+    background-color: #523d3d;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.single-countUp span{
+    font-size: 32px;
+    font-weight: 900;
 }
