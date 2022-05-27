@@ -10,7 +10,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Header = () => {
   return (
-    <section className=" header">
+    <section className=" header" id="home">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 .col-lg-6 ">

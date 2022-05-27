@@ -1,0 +1,14 @@
+.portfolio-card{
+    background-color: #53697c;
+    color: #dff0ff;
+    border-radius: 10px;
+}
+.portfolio-card:hover{
+    background-color: #dff0ff;
+    color: rgb(7, 8, 8);
+    transition: 1s;
+}
+.portfolio-text{
+    margin-top: 35%;
+    margin-bottom: 30%;
+}

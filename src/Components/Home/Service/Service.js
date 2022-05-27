@@ -1,5 +1,4 @@
 import React from "react";
-import { Card } from "react-bootstrap";
 import "./Service.css";
 import ServiceCart from "./ServiceCart/ServiceCart";
 import CountUp from "react-countup";
@@ -72,22 +71,21 @@ const Service = () => {
         <div className="about-title-container text-center">
           <p>MY POPULAR SERVICES</p>
           <h1> My Offered Service</h1>
-          <h4 className="mb-4">Build Your Brand With Me !!</h4>
+          <h4 className="my-4">Build Your Brand With Me !!</h4>
         </div>
 
         <div className="row py-3">
           {ServiceData.map((data) => (
             <ServiceCart data={data} key={data.id}></ServiceCart>
           ))}
-          
-            <div className="col col-md-4">
-              <div className="single-countUp">
-                <CountUp end={500} duration={16} />+
-                <h4> Total Project </h4>
-              </div>
-            </div>
 
-            <div className="col col-md-4">
+          <div className="col col-md-4">
+            <div className="single-countUp">
+              <CountUp end={500} duration={16} />+<h4> Total Project </h4>
+            </div>
+          </div>
+
+          <div className="col col-md-4">
             <div className="single-countUp">
               <CountUp end={10} duration={16} />
               <h4> In Progress </h4>
@@ -95,12 +93,10 @@ const Service = () => {
           </div>
 
           <div className="col col-md-4">
-          <div className="single-countUp">
-            <CountUp end={90} duration={16} />%
-            <h4> Job Success </h4>
+            <div className="single-countUp">
+              <CountUp end={90} duration={16} />%<h4> Job Success </h4>
+            </div>
           </div>
-        </div>
-         
         </div>
       </div>
     </section>

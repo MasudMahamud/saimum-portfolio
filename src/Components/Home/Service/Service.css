@@ -13,13 +13,6 @@ p.card-text{
     color: #62646a;
 }
 
-.progress-bar{
- background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
- width: 100%;
- display: -webkit-inline-box;
-    margin: auto;
-}
-
 .single-countUp {
     background-color: #523d3d;
     border: 1px solid #ddd;

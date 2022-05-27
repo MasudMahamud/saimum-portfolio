@@ -1,0 +1,10 @@
+.about-container img.img-fluid{
+    border: 1px solid #ddd;
+    border-radius:20px
+}
+.about-details p{
+    line-height: 2.1;
+}
+.about-details h2{
+    font-size: 3rem;
+}

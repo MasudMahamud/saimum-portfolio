@@ -1,5 +1,6 @@
 .card{
     min-height: 398px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
