@@ -22,12 +22,13 @@ const Header = () => {
               <h1 className="mt-3"> I'm Saimum Islam </h1>
               <p>
                 {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy{" "}
+                This is Saimum Islam Creative Design Director & Ui Ux Designer
+                Located In Bangladesh. Looking for work around the globe. I am
+                happy if you ask any question to me.{" "}
               </p>
               <Button variant="secondary">See more</Button>
               <Button variant="outline-dark">Hire me</Button>
-              <div className="header-icons my-4">
+              <div className="header-icons my-5">
                 <FacebookIcon className="mr-3" />
                 <InstagramIcon className="mr-3" />
                 <TwitterIcon className="mr-3" />

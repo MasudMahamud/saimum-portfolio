@@ -6,7 +6,7 @@ import logo from "../../../Image/Logo/Best Low Q.png";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
-  const closeMenu = () => setClick(click);
+  const closeMenu = () => setClick(!click);
 
   return (
     <>

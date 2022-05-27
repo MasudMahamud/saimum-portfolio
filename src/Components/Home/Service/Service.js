@@ -1,102 +1,82 @@
 import React from "react";
 import "./Service.css";
+import ServiceCart from "./ServiceCart/ServiceCart";
+const ServiceData = [
+  {
+    id: "1",
+    title: "UI UX DESIGN",
+    icon: "https://i.ibb.co/fCtYHcV/4115337.jpg",
+    describe: `Photo editing is the act of altering an
+    image. But that’s oversimplifying a
+    subject that can be complex and
+    employs different methods and tools.`,
+  },
+  {
+    id: "2",
+    title: "BRANDING DESIGN",
+    icon: "https://i.ibb.co/fCtYHcV/4115337.jpg",
+    describe: `Photo editing is the act of altering an
+    image. But that’s oversimplifying a
+    subject that can be complex and
+    employs different methods and tools`,
+  },
+  {
+    id: "3",
+    title: "FLYER & BROCHURE",
+    icon: "https://i.ibb.co/fCtYHcV/4115337.jpg",
+    describe: `A Flyer, brochure or media kit is a digital
+    document that visually outlines key
+    information about your business or brand
+    that would be relevant to a potential
+    client.`,
+  },
+  {
+    id: "4",
+    title: "SOCIAL MEDIA DESIGN",
+    icon: "https://i.ibb.co/fCtYHcV/4115337.jpg",
+    describe: `A website template is a predesigned
+    resource that shows the structure for
+    the comprehensive layout and
+    display features of any website. A
+    good looking web templates grow
+    your sales and business`,
+  },
+  {
+    id: "5",
+    title: "PACKAGE DESIGN",
+    icon: "https://i.ibb.co/fCtYHcV/4115337.jpg",
+    describe: `A website template is a predesigned
+    resource that shows the structure for the
+    comprehensive layout and display features
+    of any website. A good looking web
+    templates grow your sales and business`,
+  },
+  {
+    id: "6",
+    title: "T-SHIRT & MERCHANDISE",
+    icon: "https://i.ibb.co/fCtYHcV/4115337.jpg",
+    describe: `scratch, upload your own artwork or
+    ask an expert for design help. It's all
+    possible in our state-of-the-art
+    design lab.`,
+  },
+];
 
 const Service = () => {
   return (
     <section className="service-section" id="service">
       <div className="container">
-        <h1 className="about-title text-center py-5"> My Offered Service</h1>
-        <div className="row py-4">
-          <div className="col-md-4">
-            <div class="card mb-3" >
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-          
-            <div class="card mb-3" >
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div class="card mb-3" >
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-          <div class="card mb-3" >
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
+        <div className="about-title-container text-center">
+          <p>MY POPULAR SERVICES</p>
+          <h1> My Offered Service</h1>
+          <h4 className="mb-4">Build Your Brand With Me !!</h4>
         </div>
-        <div className="col-md-4">
-        <div class="card mb-3" >
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">
-              Go somewhere
-            </a>
-          </div>
+
+        <div className="row py-3">
+          {ServiceData.map((data) => (
+            <ServiceCart data={data} key={data.id}></ServiceCart>
+          ))}
         </div>
-      </div>
-      <div className="col-md-4">
-      <div class="card mb-3" >
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up
-            the bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-    </div>
-    <div className="see-more-btn pt-3  m-auto">
-    <button  type="button" class="btn btn-outline-dark ">see more</button>
-    </div>
-    </div>
-   
       </div>
     </section>
   );

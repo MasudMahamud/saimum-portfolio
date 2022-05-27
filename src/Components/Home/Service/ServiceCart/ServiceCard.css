@@ -1,0 +1,14 @@
+.card{
+    min-height: 345px;
+    cursor: pointer;
+}
+
+.card p {
+   line-height: 2.1;
+}
+
+.card .card-body img{
+    max-width: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+}

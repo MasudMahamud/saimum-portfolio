@@ -1,8 +1,15 @@
 .service-section{
-    background-color: rgb(227, 243, 243);
-    color: black;
+    background-color: #f6f6f8;
+    color: #62646a;
 }
-.about-title{
-    font-size: 36px;
-    font-weight: bold;
+.about-title-container h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.about-title-container p{
+   padding-top: 22px;
+}
+
+p.card-text{
+    color: #62646a;
 }
