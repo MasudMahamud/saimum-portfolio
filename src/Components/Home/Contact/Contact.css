@@ -1,0 +1,27 @@
+.contact-section{
+    background-image: url("../../../Image/World Map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+}
+
+.contact_btn{
+    background-color: blueviolet;
+    color: aliceblue;
+    text-decoration: none;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 0px 20px 0px 20px;
+    margin-top: 40px;
+}
+.contact_btn:hover{
+    background-color: #fb5200;
+    color: rgb(253, 223, 223);
+    transition: 1s;
+}
+
+.contact-icon{
+    cursor: pointer;
+    margin-top: 80px;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import "./Service.css";
 import ServiceCart from "./ServiceCart/ServiceCart";
 import CountUp from "react-countup";
-
+import Zoom from "react-reveal/Zoom";
 
 const ServiceData = [
   {
@@ -69,7 +69,7 @@ const Service = () => {
   return (
     <section className="service-section" id="service">
       <div className="container">
-        <div className="about-title-container text-center">
+        <div className="about-title-container text-center mt-5">
           <p>MY POPULAR SERVICES</p>
           <h1> My Offered Service</h1>
           <h4 className="my-4">Build Your Brand With Me !!</h4>
@@ -79,25 +79,28 @@ const Service = () => {
           {ServiceData.map((data) => (
             <ServiceCart data={data} key={data.id}></ServiceCart>
           ))}
-
-          <div className="col col-md-4">
-            <div className="single-countUp">
-              <CountUp end={500} duration={16} />+<h4> Total Project </h4>
+          <Zoom right>
+            <div className="col col-md-4">
+              <div className="single-countUp">
+                <CountUp end={500} duration={16} />+<h4> Total Project </h4>
+              </div>
             </div>
-          </div>
-
-          <div className="col col-md-4">
-            <div className="single-countUp">
-              <CountUp end={10} duration={16} />
-              <h4> In Progress </h4>
+          </Zoom>
+          <Zoom left>
+            <div className="col col-md-4">
+              <div className="single-countUp">
+                <CountUp end={10} duration={16} />
+                <h4> In Progress </h4>
+              </div>
             </div>
-          </div>
-
-          <div className="col col-md-4">
-            <div className="single-countUp">
-              <CountUp end={90} duration={16} />%<h4> Job Success </h4>
+          </Zoom>
+          <Zoom right>
+            <div className="col col-md-4">
+              <div className="single-countUp">
+                <CountUp end={90} duration={16} />%<h4> Job Success </h4>
+              </div>
             </div>
-          </div>
+          </Zoom>
         </div>
       </div>
     </section>

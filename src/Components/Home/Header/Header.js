@@ -1,14 +1,15 @@
 import React from "react";
 import "./Header.css";
 import img from "../../../Image/main-image.jpg";
-import beehance from "../../../Image/social/Beehance.png"
-import dribble from "../../../Image/social/Dribble.png"
+import beehance from "../../../Image/social/Beehance.png";
+import dribble from "../../../Image/social/Dribble.png";
 import { Button } from "react-bootstrap";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import Fade from "react-reveal/Fade";
 
 const Header = () => {
   const FbHandler = () => {
@@ -34,34 +35,53 @@ const Header = () => {
   };
 
   return (
-    <section className=" header" id="home">
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col-sm-12 col-md-6 .col-lg-6 ">
-            <img className="img-fluid" src={img} alt="" />
+    <section className="header" id="home">
+      <div class="container head">
+        <div class="row head">
+          <div class="col-sm-12 col-md-6 col-lg-6 ">
+            <Fade left>
+              <img className="img-fluid" src={img} alt="" />
+            </Fade>
           </div>
 
-          <div class="col-sm-12 col-md-6 .col-lg-6 right-side">
-            <div className="header-descriptions  p-5">
-              <h1 className="mt-3"> I'm <strong className="name">Saimum</strong> Islam </h1>
-              <p>
-                {" "}
-                This is Saimum Islam Creative Design Director & Ui Ux Designer
-                Located In Bangladesh. Looking for work around the globe. I am
-                happy if you ask any question to me.{" "}
-              </p>
-              <Button variant="secondary">See more</Button>
-              <Button variant="outline-dark">Hire me</Button>
-              <div className="header-icons mt-5">
-                <FacebookIcon className="mr-3" onClick={FbHandler}/>
-                <InstagramIcon className="mr-3" onClick={instagramHandler}/>
-                <TwitterIcon className="mr-3" onClick={twitterHandler}/>
-                <LinkedInIcon className="mr-3" onClick={linkedinHandler}/>
-                <WhatsAppIcon className="mr-3" onClick={whatsappHandler}/>
-                <img className="img-fluid mr-3" src={beehance} alt="" onClick={beehanceHandler} style={{width:'18px'}}/>
-                <img className="img-fluid" src={dribble} alt="" onClick={dribbleHandler} style={{width:'18px'}}/>
+          <div class="col-sm-12 col-md-6 col-lg-6 right-side">
+            <Fade right>
+              <div className="header-descriptions mt-4 p-3">
+                <h1>
+                  {" "}
+                  I'm <strong className="name">Saimum</strong> Islam{" "}
+                </h1>
+                <p>
+                  {" "}
+                  This is Saimum Islam Creative Design Director & Ui Ux Designer
+                  Located In Bangladesh. Looking for work around the globe.{" "}
+                  <br />I am happy if you ask any question to me.{" "}
+                </p>
+                <Button variant="secondary">See more</Button>
+                <Button variant="outline-dark">Hire me</Button>
+                <div className="header-icons mt-5">
+                  <FacebookIcon className="mr-3" onClick={FbHandler} />
+                  <InstagramIcon className="mr-3" onClick={instagramHandler} />
+                  <TwitterIcon className="mr-3" onClick={twitterHandler} />
+                  <LinkedInIcon className="mr-3" onClick={linkedinHandler} />
+                  <WhatsAppIcon className="mr-3" onClick={whatsappHandler} />
+                  <img
+                    className="img-fluid mr-3"
+                    src={beehance}
+                    alt=""
+                    onClick={beehanceHandler}
+                    style={{ width: "18px" }}
+                  />
+                  <img
+                    className="img-fluid"
+                    src={dribble}
+                    alt=""
+                    onClick={dribbleHandler}
+                    style={{ width: "18px" }}
+                  />
+                </div>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
       </div>

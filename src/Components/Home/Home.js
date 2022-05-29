@@ -5,6 +5,8 @@ import Service from './Service/Service';
 import About from './About/About';
 import Portfolio from './Portfolio/Portfolio';
 import Feedback from './Feedback/Feedback';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <About/>
             <Portfolio/>
             <Feedback/>
+            <Contact/>
+            <Footer/>
         </>
     );
 };

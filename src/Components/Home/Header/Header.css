@@ -4,7 +4,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.head{
+    padding-top: 95px;
+}
 .header-descriptions{
     line-height: 3.5ch;
     font-size: 18px;
@@ -18,7 +20,7 @@ button.btn.btn-outline-dark {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 25px;
 }
 .header-icons{
     cursor: pointer;
