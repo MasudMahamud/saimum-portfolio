@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
 import img from "../../../Image/main-image.jpg";
+import beehance from "../../../Image/social/Beehance.png"
+import dribble from "../../../Image/social/Dribble.png"
 import { Button } from "react-bootstrap";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -9,17 +11,39 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Header = () => {
+  const FbHandler = () => {
+    window.open("https://www.facebook.com/saimumbiz", "_blank");
+  };
+  const instagramHandler = () => {
+    window.open("https://www.instagram.com/saimumbiz", "_blank");
+  };
+  const twitterHandler = () => {
+    window.open("https://www.twitter.com/saimumbiz", "_blank");
+  };
+  const linkedinHandler = () => {
+    window.open("https://www.linkedin.com/in/saimumbiz", "_blank");
+  };
+  const whatsappHandler = () => {
+    window.open("https://www.facebook.com/saimumbiz", "_blank");
+  };
+  const beehanceHandler = () => {
+    window.open("https://www.behance.net/saimumbiz", "_blank");
+  };
+  const dribbleHandler = () => {
+    window.open("https://www.dribbble.com/saimumbiz", "_blank");
+  };
+
   return (
     <section className=" header" id="home">
       <div class="container">
-        <div class="row">
+        <div class="row mt-5">
           <div class="col-sm-12 col-md-6 .col-lg-6 ">
-            <img src={img} alt="" />
+            <img className="img-fluid" src={img} alt="" />
           </div>
 
           <div class="col-sm-12 col-md-6 .col-lg-6 right-side">
-            <div className="header-descriptions">
-              <h1 className="mt-3"> I'm Saimum Islam </h1>
+            <div className="header-descriptions  p-5">
+              <h1 className="mt-3"> I'm <strong className="name">Saimum</strong> Islam </h1>
               <p>
                 {" "}
                 This is Saimum Islam Creative Design Director & Ui Ux Designer
@@ -28,12 +52,14 @@ const Header = () => {
               </p>
               <Button variant="secondary">See more</Button>
               <Button variant="outline-dark">Hire me</Button>
-              <div className="header-icons my-5">
-                <FacebookIcon className="mr-3" />
-                <InstagramIcon className="mr-3" />
-                <TwitterIcon className="mr-3" />
-                <LinkedInIcon className="mr-3" />
-                <WhatsAppIcon className="mr-3" />
+              <div className="header-icons mt-5">
+                <FacebookIcon className="mr-3" onClick={FbHandler}/>
+                <InstagramIcon className="mr-3" onClick={instagramHandler}/>
+                <TwitterIcon className="mr-3" onClick={twitterHandler}/>
+                <LinkedInIcon className="mr-3" onClick={linkedinHandler}/>
+                <WhatsAppIcon className="mr-3" onClick={whatsappHandler}/>
+                <img className="img-fluid mr-3" src={beehance} alt="" onClick={beehanceHandler} style={{width:'18px'}}/>
+                <img className="img-fluid" src={dribble} alt="" onClick={dribbleHandler} style={{width:'18px'}}/>
               </div>
             </div>
           </div>

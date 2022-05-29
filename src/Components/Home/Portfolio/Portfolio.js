@@ -5,32 +5,32 @@ const portfolioData = [
   {
     id: "1",
     title: "UI & UX DESIGN",
-    icon: `https://i.ibb.co/j43Styz/4115337-removebg-preview.png`,
+    icon: `https://i.ibb.co/ZSCpS1P/UI-Ux.png`,
   },
   {
     id: "2",
     title: "BRANDING DESIGN",
-    icon: `https://i.ibb.co/j43Styz/4115337-removebg-preview.png`,
+    icon: `https://i.ibb.co/J32yhXy/Branding.png`,
   },
   {
     id: "3",
     title: "FLYER & BROCHURE",
-    icon: `https://i.ibb.co/j43Styz/4115337-removebg-preview.png`,
+    icon: `https://i.ibb.co/TKjMvFP/Flyer.png`,
   },
   {
     id: "4",
     title: "SOCIAL MEDIA DESIGN",
-    icon: `https://i.ibb.co/j43Styz/4115337-removebg-preview.png`,
+    icon: `https://i.ibb.co/mqqssq5/Social-Media.png`,
   },
   {
     id: "5",
     title: "PACKAGE DESIGN",
-    icon: `https://i.ibb.co/j43Styz/4115337-removebg-preview.png`,
+    icon: `https://i.ibb.co/xYfyB9h/Pack.png`,
   },
   {
     id: "6",
     title: "T-SHIRT & MERCHANDISE",
-    icon: `https://i.ibb.co/j43Styz/4115337-removebg-preview.png`,
+    icon: `https://i.ibb.co/rx6Qzcj/T-shirt.png`,
   },
 ];
 

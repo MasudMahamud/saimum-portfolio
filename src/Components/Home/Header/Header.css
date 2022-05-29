@@ -14,12 +14,17 @@ button.btn.btn-outline-dark {
     margin-left: 60px;
 }
 
-
 .right-side{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15%;
 }
 .header-icons{
     cursor: pointer;
 }
+.name{
+    font-size: inherit;
+    color: tomato;
+}
+

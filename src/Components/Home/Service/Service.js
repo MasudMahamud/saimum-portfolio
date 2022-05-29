@@ -3,11 +3,12 @@ import "./Service.css";
 import ServiceCart from "./ServiceCart/ServiceCart";
 import CountUp from "react-countup";
 
+
 const ServiceData = [
   {
     id: "1",
     title: "UI UX DESIGN",
-    icon: "https://i.ibb.co/j43Styz/4115337-removebg-preview.png",
+    icon: "https://i.ibb.co/ZSCpS1P/UI-Ux.png",
     describe: `Photo editing is the act of altering an
     image. But that’s oversimplifying a
     subject that can be complex and
@@ -16,7 +17,7 @@ const ServiceData = [
   {
     id: "2",
     title: "BRANDING DESIGN",
-    icon: "https://i.ibb.co/j43Styz/4115337-removebg-preview.png",
+    icon: "https://i.ibb.co/J32yhXy/Branding.png",
     describe: `Photo editing is the act of altering an
     image. But that’s oversimplifying a
     subject that can be complex and
@@ -25,7 +26,7 @@ const ServiceData = [
   {
     id: "3",
     title: "FLYER & BROCHURE",
-    icon: "https://i.ibb.co/j43Styz/4115337-removebg-preview.png",
+    icon: "https://i.ibb.co/TKjMvFP/Flyer.png",
     describe: `A Flyer, brochure or media kit is a digital
     document that visually outlines key
     information about your business or brand
@@ -35,8 +36,8 @@ const ServiceData = [
   {
     id: "4",
     title: "SOCIAL MEDIA DESIGN",
-    icon: "https://i.ibb.co/j43Styz/4115337-removebg-preview.png",
-    describe: `A website template is a predesigned
+    icon: "https://i.ibb.co/mqqssq5/Social-Media.png",
+    describe: `A website template is a pre-designed
     resource that shows the structure for
     the comprehensive layout and
     display features of any website. A
@@ -46,8 +47,8 @@ const ServiceData = [
   {
     id: "5",
     title: "PACKAGE DESIGN",
-    icon: "https://i.ibb.co/j43Styz/4115337-removebg-preview.png",
-    describe: `A website template is a predesigned
+    icon: "https://i.ibb.co/xYfyB9h/Pack.png",
+    describe: `A website template is a pre-designed
     resource that shows the structure for the
     comprehensive layout and display features
     of any website. A good looking web
@@ -56,7 +57,7 @@ const ServiceData = [
   {
     id: "6",
     title: "T-SHIRT & MERCHANDISE",
-    icon: "https://i.ibb.co/j43Styz/4115337-removebg-preview.png",
+    icon: "https://i.ibb.co/rx6Qzcj/T-shirt.png",
     describe: `scratch, upload your own artwork or
     ask an expert for design help. It's all
     possible in our state-of-the-art

@@ -1,14 +1,15 @@
 .portfolio-card{
-    background-color: #53697c;
-    color: #dff0ff;
+    background: linear-gradient( rgba(2,0,36,1) 0%, rgb(250 253 255) 0%, rgb(100 210 251) 0%, rgb(182 235 255) 72%, rgb(255 255 255) 96%);
+    color: #333;
     border-radius: 10px;
+    min-height: 160px !important;
 }
-.portfolio-card:hover{
-    background-color: #dff0ff;
-    color: rgb(7, 8, 8);
+.portfolio-card :hover{
+    background-color: rgb(160, 146, 146);
+    color: rgb(249, 255, 255);
     transition: 1s;
 }
 .portfolio-text{
-    margin-top: 35%;
-    margin-bottom: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
