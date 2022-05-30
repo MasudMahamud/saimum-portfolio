@@ -6,8 +6,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import ReactWhatsapp from "react-whatsapp";
+
 
 const Contact = () => {
   const FbHandler = () => {
@@ -30,7 +29,7 @@ const Contact = () => {
     window.open("https://www.dribbble.com/saimumbiz", "_blank");
   };
   const connectWhatsApp = () => {
-    window.open("https://wa.me/01636623121", "_blank");
+    window.open("https://wa.me/+88001636623121", "_blank");
   };
   return (
     <section className="contact-section">

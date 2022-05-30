@@ -25,7 +25,7 @@ const Header = () => {
     window.open("https://www.linkedin.com/in/saimumbiz", "_blank");
   };
   const whatsappHandler = () => {
-    window.open("https://wa.me/01636623121", "_blank");
+    window.open("https://wa.me/+88001636623121", "_blank");
   };
   const beehanceHandler = () => {
     window.open("https://www.behance.net/saimumbiz", "_blank");
