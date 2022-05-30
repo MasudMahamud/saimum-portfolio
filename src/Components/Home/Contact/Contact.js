@@ -2,12 +2,12 @@ import React from "react";
 import "./Contact.css";
 import beehance from "../../../Image/social/Beehance.png";
 import dribble from "../../../Image/social/Dribble.png";
-
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import ReactWhatsapp from "react-whatsapp";
 
 const Contact = () => {
   const FbHandler = () => {
@@ -22,14 +22,15 @@ const Contact = () => {
   const linkedinHandler = () => {
     window.open("https://www.linkedin.com/in/saimumbiz", "_blank");
   };
-  const whatsappHandler = () => {
-    window.open("https://www.facebook.com/saimumbiz", "_blank");
-  };
+
   const beehanceHandler = () => {
     window.open("https://www.behance.net/saimumbiz", "_blank");
   };
   const dribbleHandler = () => {
     window.open("https://www.dribbble.com/saimumbiz", "_blank");
+  };
+  const connectWhatsApp = () => {
+    window.open("https://wa.me/01636623121", "_blank");
   };
   return (
     <section className="contact-section">
@@ -45,13 +46,16 @@ const Contact = () => {
               Change is the first step in improvement. Change can change your
               life and life style
             </p>
-            <button className="contact_btn">Start Talking</button>
+            <button className="contact_btn" onClick={connectWhatsApp}>
+              Start Talking
+            </button>
+
             <div className="contact-icon">
               <FacebookIcon className="mr-3" onClick={FbHandler} />
               <InstagramIcon className="mr-3" onClick={instagramHandler} />
               <TwitterIcon className="mr-3" onClick={twitterHandler} />
               <LinkedInIcon className="mr-3" onClick={linkedinHandler} />
-              <WhatsAppIcon className="mr-3" onClick={whatsappHandler} />
+
               <img
                 className="img-fluid mr-3"
                 src={beehance}

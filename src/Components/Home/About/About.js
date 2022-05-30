@@ -5,6 +5,9 @@ import img from "../../../Image/about-image.jpg";
 import Fade from "react-reveal/Fade";
 
 const About = () => {
+  const connectWhatsApp = () => {
+    window.open("https://wa.me/01636623121", "_blank");
+  };
   return (
     <section className="about-container" id="about">
       <div className="container">
@@ -30,7 +33,7 @@ const About = () => {
                   Seeking full time opportunity. Having 05 Years+ experience in
                   Graphic Design. I am happy if you ask any question to me.
                 </p>
-                <Button variant="secondary">Contact</Button>
+                <Button variant="secondary"  onClick={connectWhatsApp}>Contact</Button>
                 <Button variant="outline-dark">Hire me</Button>
               </div>
             </div>
