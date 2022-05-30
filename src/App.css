@@ -11,3 +11,12 @@ section {
     background-color: #f6f6f8;
     color: #62646a;
 }
+
+.load {
+    display: flex;
+    height: 90Vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Smooch Sans", sans-serif;
+  }
+  
