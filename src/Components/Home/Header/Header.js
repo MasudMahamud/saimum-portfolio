@@ -40,13 +40,13 @@ const Header = () => {
         <div class="row head">
           <div class="col-sm-12 col-md-6 col-lg-6 ">
             <Fade left>
-              <img className="img-fluid" src={img} alt="" />
+              <img className="img-fluid" src={img} alt="" style={{textAlign:'center'}}/>
             </Fade>
           </div>
 
           <div class="col-sm-12 col-md-6 col-lg-6 right-side">
             <Fade right>
-              <div className="header-descriptions mt-4 p-3">
+              <div className="header-descriptions">
                 <h1>
                   {" "}
                   I'm <strong className="name">Saimum</strong> Islam{" "}

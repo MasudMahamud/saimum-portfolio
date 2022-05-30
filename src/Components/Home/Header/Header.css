@@ -5,23 +5,23 @@
     background-size: cover;
 }
 .head{
-    padding-top: 95px;
+    padding-top: 80px;
 }
 .header-descriptions{
     line-height: 3.5ch;
     font-size: 18px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 button.btn.btn-outline-dark {
     margin-left: 60px;
 }
 
-.right-side{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-}
 .header-icons{
     cursor: pointer;
 }

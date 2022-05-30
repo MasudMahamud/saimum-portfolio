@@ -32,7 +32,7 @@ const Contact = () => {
     window.open("https://wa.me/+88001636623121", "_blank");
   };
   return (
-    <section className="contact-section">
+    <section className="contact-section" id='contact'>
       <div className="container">
         <div className="row text-center">
           <div className="col-md-12">
